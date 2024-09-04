@@ -1,8 +1,8 @@
 version: 1.0.1
 files:
   - url: electron-auto-update-example-setup-1.0.1.exe
-    sha512: 3d6Aysffp4sL8ho6nD/nrcj0D+4780pGg6/HUxJtvmenyG1dpXANAvUxsKs7znmIqI2VCiyQfESb5vwZkq6dew==
-    size: 44732472
+    sha512: xhVH/QgNVoMfpF3kdpsZnpG922TpS7+xhstAZCLQrO4nvAPO9q9mk1SBNh2pgi61r9j5Hx07jSGa3tRE9M6atg==
+    size: 44746482
 path: electron-auto-update-example-setup-1.0.1.exe
-sha512: 3d6Aysffp4sL8ho6nD/nrcj0D+4780pGg6/HUxJtvmenyG1dpXANAvUxsKs7znmIqI2VCiyQfESb5vwZkq6dew==
-releaseDate: '2024-09-04T05:52:05.994Z'
+sha512: xhVH/QgNVoMfpF3kdpsZnpG922TpS7+xhstAZCLQrO4nvAPO9q9mk1SBNh2pgi61r9j5Hx07jSGa3tRE9M6atg==
+releaseDate: '2024-09-04T09:29:00.624Z'
