@@ -3,15 +3,23 @@
   "version": "1.0.1",
   "description": "",
   "main": "main.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/sendilgithub/autoupdater.git"
   },
-  "publish": {
-    "provider": "github",
-    "owner": "sendilgithub",
-    "repo": "autoupdater",
-    "releaseType": "dist"
+  "build": {
+    "appId": "com.yourapp.id",
+    "productName": "electron-auto-update-example",
+    "directories": {
+      "output": "release"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "sendilgithub",
+      "repo": "autoupdater",
+      "releaseType": "release"
+    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,11 +30,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^5.0.1",
-    "electron-builder": "^20.40.2"
+    "electron": "^25.2.0",
+    "electron-builder": "^24.6.0"
   },
   "dependencies": {
-    "electron-log": "^5.1.7",
-    "electron-updater": "^4.0.6"
+    "electron-updater": "^4.0.6",
+    "http": "^0.0.1-security"
   }
 }

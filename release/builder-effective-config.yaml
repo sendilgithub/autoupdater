@@ -1,0 +1,12 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.yourapp.id
+productName: electron-auto-update-example
+publish:
+  provider: github
+  owner: sendilgithub
+  repo: autoupdater
+  releaseType: release
+files: []
+electronVersion: 25.9.8
